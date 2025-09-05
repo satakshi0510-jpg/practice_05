@@ -6,6 +6,7 @@ age = int(input("Enter your age: "))
 current_year= datetime.now().year
 year_100= current_year + (100-age)
 
+
 print(f"Hello {name}! You will turn 100 years old in the year {year_100}.")
 
 #This is a program to reverse an array, array=[1,2,3,4,5].
@@ -21,3 +22,4 @@ for i in range(n//2):
 name = "mayank"
 result = name[-1:1:-1]
 print(result)
+
