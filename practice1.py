@@ -16,3 +16,8 @@ n=len(arr)
 for i in range(n//2):
     arr[i], arr[n-i-1]= arr[n-i-1], arr[i]
     print("Reversed array is: ", arr)
+
+# Program for slicing a name.
+name = "mayank"
+result = name[-1:1:-1]
+print(result)
